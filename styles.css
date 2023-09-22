@@ -1,10 +1,29 @@
 /**/
 body {
     display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 200px;
+}
+
+img {
+    width: 200px;
 }
 
 .heading {
     display: flex;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
 }
 
 .intro {
