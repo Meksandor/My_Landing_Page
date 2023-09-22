@@ -1,28 +1,28 @@
 /**/
 body {
-
+    display: flex;
 }
 
 .heading {
-
+    display: flex;
 }
 
 .intro {
-
+    display: flex;
 }
 
 .info {
-
+    display: flex;
 }
 
 .quote {
-
+    display: flex;
 }
 
 .signup {
-
+    display: flex;
 }
 
 .footer {
-
+    display: flex;
 }
