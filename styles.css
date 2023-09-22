@@ -2,6 +2,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
 }
 
 .logo {
@@ -14,6 +15,7 @@ img {
 
 .heading {
     display: flex;
+    background: #1f2937;
 }
 
 
@@ -24,24 +26,85 @@ img {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .intro {
     display: flex;
+    background: #1f2937;
+}
+
+.intro>.leftintro>h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+
+}
+
+.intro>.leftintro>p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.leftintro {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.actionbutton {
+    background: #3882F6;
+    color: white;
 }
 
 .info {
     display: flex;
+    flex-direction: column;
+}
+
+.info>h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: 1F2937;
+}
+
+.fourinfopart {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoitem {
+    display: flex;
+    flex-direction: column;
 }
 
 .quote {
     display: flex;
+    flex-direction: column;
+    background: #e5e7eb;
+}
+
+.quote>.quoteparag {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .signup {
     display: flex;
+    flex-direction: row;
+}
+
+.signupleft {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
     display: flex;
+    background: #1f2937;
+}
+
+.footer>p {
+    color: white;
 }
