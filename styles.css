@@ -3,35 +3,60 @@ body {
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
+    margin: 0px;
+    flex-wrap: wrap;
 }
 
 .logo {
-    width: 200px;
+    width: 300px;
+    margin-top: 15px;
 }
 
 img {
     width: 200px;
 }
 
+#giga {
+    width: 450px;
+    height: 450px;
+}
+
+#meinreal {
+    width: 250px;
+    height: 250px;
+    align-self: center;
+}
+
 .heading {
     display: flex;
+    flex-direction: row;
     background: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    gap: 400px;
 }
 
 
 .links {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
 }
 
 .intro {
     display: flex;
     background: #1f2937;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 40px;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .intro>.leftintro>h1 {
@@ -50,61 +75,112 @@ a {
     display: flex;
     flex-direction: column;
     color: white;
+    max-width: 500px;
 }
 
 .actionbutton {
     background: #3882F6;
     color: white;
+    width: 300px;
+    height: 50px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.info>h1 {
+.info h1 {
     font-size: 36px;
     font-weight: 900;
-    color: 1F2937;
+    color: #1F2937;
+}
+
+.info p {
+    text-align: center;
+    font-size: 20px;
 }
 
 .fourinfopart {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 60px;
 }
 
 .infoitem {
     display: flex;
     flex-direction: column;
+    flex-shrink: 1;
+    flex-grow: 0;
+    max-width: 200px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
     background: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
 }
 
-.quote>.quoteparag {
+.quote .quoteparag {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    text-align: center;
+}
+
+.wiseman {
+    font-size: 22px;
 }
 
 .signup {
     display: flex;
+    background-color: white;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+}
+
+.bluebox {
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
 }
 
 .signupleft {
     display: flex;
     flex-direction: column;
+    color: white;
+    flex: 1;
+    max-width: 800px;
+}
+
+#buttontwo {
+    font-size: 20px;
+    border-width: 4px;
+    border-color: white;
+    border-style: solid;
+    width: 300px;
+    height: 60px;
+
 }
 
 .footer {
     display: flex;
     background: #1f2937;
+    justify-content: center;
+    align-items: center;
 }
 
-.footer>p {
+.footer p {
     color: white;
 }
