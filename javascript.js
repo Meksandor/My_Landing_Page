@@ -9,3 +9,11 @@ function playMusic() {
 
 play.addEventListener("click", playMusic);
 play2.addEventListener("click", playMusic);
+
+let logo = document.querySelector('.logo');
+
+logo.addEventListener('load', (event) => {
+    console.log('Logo has been loaded succesfully!');
+});
+
+logo.src = "media/meksandorSFLogo.png";
